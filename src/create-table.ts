@@ -5,7 +5,7 @@ async function createTable () {
 
     //query for table creation if not already created
     const createUseerTableQuery = `
-        CREATE TABLE usersankan1 (
+        CREATE TABLE usersankan10 (
             id SERIAL PRIMARY KEY,
             email VARCHAR(255) UNIQUE NOT NULL,
             password VARCHAR(255) NOT NULL
@@ -17,7 +17,7 @@ async function createTable () {
 
     //query for todos table
     const createTodosQuery = `
-        CREATE TABLE todosankan1 (
+        CREATE TABLE todosankan10 (
             id SERIAL PRIMARY KEY,
             title TEXT NOT NULL,
             description TEXT,
